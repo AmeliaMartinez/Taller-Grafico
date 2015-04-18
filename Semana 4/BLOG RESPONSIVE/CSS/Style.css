@@ -1,0 +1,165 @@
+
+body {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+#wrapper {  
+	width: 100%; 
+	margin:0 auto; 
+	max-width:990px; 
+}
+
+hr {
+	margin:0;
+	border:0;
+	border-bottom:1px solid #000;
+}
+
+h1 { 
+	font-size: 5.8em; 
+	text-transform: uppercase; 
+	color:#230b03; 
+	float:left; 
+}
+
+h2 { 
+	font-size:1.5em; 
+	font-weight: 700; 
+	text-transform: uppercase; 
+	margin-bottom: 10px; 
+	line-height: 28px; 
+}
+
+h3 { 
+	font-size:0.7em; 
+	font-weight: bold; 
+	margin-bottom: 10px;
+}
+
+
+
+header {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	padding:10px 30px;
+}
+
+header nav {
+		font-size: 0.9em;
+	}
+
+	header nav ul {
+		list-style: none; 
+	}
+
+	header nav ul li {
+		float: right; 
+		margin-right: 20px; 
+		font-weight: bold; 
+		margin-top:60px; 
+	}
+	
+	header  nav a:link, 
+	header nav a:visited {
+		color: #000;
+		text-decoration: none;
+	}
+
+	header  nav a:hover, 
+	header nav a:active,
+	header  nav .active a:link, 
+	header nav .active a:visited {
+		color: #666;
+	}
+
+
+	/* Aside */
+
+	aside {
+		width:30%;
+		float:left;
+		box-sizing: border-box;
+		-moz-box-sizing: border-box; 
+		-webkit-box-sizing: border-box;
+		padding:30px;
+	}
+
+		aside ul {
+			font-weight:bold;
+			font-size: 0.8em;
+		}
+
+		aside ul li {
+			line-height: 18px;
+			margin-bottom:15px;
+		}
+
+
+section {
+	float:left;
+	width:70%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	padding:30px;
+}
+
+	section article {
+		margin-bottom:20px;
+
+	}
+
+	section article p {
+		font-size:14px;
+		line-height: 21px;
+	}
+
+
+
+footer {
+	font-size:12px;
+	font-weight: bold;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	padding:10px 30px;
+}
+
+footer p {
+	margin-top:10px;
+}
+
+@media screen and (max-width: 650px) {
+
+	aside {
+		text-align: center;
+		width:100%;
+		float:none;
+	}
+
+	
+	section {
+		width:100%;
+		float:none;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+
+	
+	html {
+		-webkit-text-size-adjust: none;
+	}
+
+	#menu-web {
+		display: none;
+	}
+
+}
